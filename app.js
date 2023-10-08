@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 
-app.get('/getExchangeAmount', (req, res) => {
+app.get('/api/getExchangeAmount', (req, res) => {
   try {
     let {source, target, amount} = req.query
     if (!source || !target || !amount) throw new Error('query string必需有3個')
