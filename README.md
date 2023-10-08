@@ -19,7 +19,7 @@ npm install
 
 4. 使用腳本，即可啟動伺服器
 ```
-npm run dev
+npm run start
 ```
 
 5. 當終端機(terminal)出現以下文字，代表伺服器已啟動
@@ -30,4 +30,9 @@ app is running on localhost:3000
 6. 在瀏覽器輸入以下網址，及可獲得換算的外匯金額
 ```
 http://localhost:3000/getExchangeAmount?source=&target=&amount=
+```
+
+7. 單元測試時，請輸入以下腳本執行
+```
+npm run test
 ```
