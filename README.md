@@ -29,7 +29,7 @@ app is running on localhost:3000
 
 6. 在瀏覽器輸入以下網址，及可獲得換算的外匯金額
 ```
-http://localhost:3000/getExchangeAmount?source=&target=&amount=
+http://localhost:3000/api/getExchangeAmount?source=&target=&amount=
 ```
 
 7. 單元測試時，請輸入以下腳本執行
